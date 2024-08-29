@@ -1,0 +1,2 @@
+(this["webpackJsonparcherswap-frontend"]=this["webpackJsonparcherswap-frontend"]||[]).push([[44],{1956:function(t,e,r){"use strict";r.r(e),r.d(e,"RedirectOldRemoveLiquidityPathStructure",(function(){return s}));var a=r(18),c=(r(0),r(63)),n=r(1),o=/^(0x[a-fA-F0-9]{40})-(0x[a-fA-F0-9]{40})$/;function s(t){var e=t.match.params.tokens;if(!o.test(e))return Object(n.jsx)(c.a,{to:"/pool"});var r=e.split("-"),s=Object(a.a)(r,2),i=s[0],u=s[1];return Object(n.jsx)(c.a,{to:"/remove/".concat(i,"/").concat(u)})}e.default=s}}]);
+//# sourceMappingURL=44.066fe828.chunk.js.map
